@@ -237,7 +237,7 @@ services:
 #      SENTRY_DSN: ${WEB_SENTRY_DSN:-}
 #      NEXT_TELEMETRY_DISABLED: ${NEXT_TELEMETRY_DISABLED:-0}
   web:
-    image: 11153123/enty-web
+    image: 11153123/enty-web:0.0.1
     ports:
       - "3000:3000"
     environment:
